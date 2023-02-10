@@ -2,3 +2,50 @@ baseURL = "http://example.org/"
 languageCode = "en-us"
 title = "My New Hugo Site"
 theme = "PaperMod"
+buildDrafts = false
+
+[[menu.main]]
+identifier = "categories"
+name = "Categories"
+url = "/categories/"
+weight = 10
+
+[[menu.main]]
+identifier = "tags"
+name = "Tags"
+url = "/tags/"
+weight = 20
+
+[[menu.main]]
+identifier = "archives"
+name = "Archives"
+url = "/archives/"
+weight = 30
+
+[params.profileMode]
+enabled = true
+title = "Hello!🖖🏻"
+subtitle = "I'm Othsueh, a NTNU student major in CSIE, rookie in Computer Science, But I eager to Learn."
+imageUrl = "img/author.jpg"
+imageWidth = 120
+imageHeight = 120
+imageTitle = "my image"
+
+[[params.profileMode.buttons]]
+name = "Blog"
+url = "/posts/"
+
+[[params.profileMode.buttons]]
+name = "Categories"
+url = "/categories/"
+
+[[params.socialIcons]]
+name = "stackoverflow"
+url = "https://stackoverflow.com/users/18195962/othsueh"
+
+[[params.socialIcons]]
+name = "LinkedIn"
+url = "https://www.linkedin.com/in/chun-hsueh-yu-9537761b9/"
+[[params.socialIcons]]
+name = "github"
+url = "https://github.com/othsueh"
