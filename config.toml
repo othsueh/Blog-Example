@@ -4,6 +4,16 @@ title = "My New Hugo Site"
 theme = "PaperMod"
 buildDrafts = false
 
+[params]
+ShowBreadCrumbs = true
+ShowReadingTime = true
+ShowShareButtons = true
+ShowPostNavLinks = true
+
+[params.cover]
+linkFullImages = true
+
+
 [[menu.main]]
 identifier = "categories"
 name = "Categories"
